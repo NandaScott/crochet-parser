@@ -1,0 +1,17 @@
+{
+  "name": "crochet-doubler",
+  "version": "1.0.0",
+  "description": "A script to help double crochet patterns",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.ts"
+  },
+  "author": "Nanda Scott",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.16.0",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1"
+  }
+}

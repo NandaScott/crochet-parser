@@ -1,0 +1,20 @@
+Basic Ball
+1.  6sc in magic circle [6]
+2.  (inc)x6 [12]
+3.  (sc, inc)x6 [18]
+4.  sc, inc, (2sc, inc)x5, sc [24]
+5.  (3sc, inc)x6 [30]
+6.  (sc)x30 [30]
+7.  (sc)x30 [30]
+8.  2sc, inc, (4sc, inc)x5, 2sc [36]
+9.  (sc)x36 [36]
+10. (sc)x36 [36]
+11. (sc)x36 [36]
+12. 2sc, dec, (4sc, dec)x5, 2sc [30]
+13. (sc)x30 [30]
+14. (sc)x30 [30]
+15. (3sc, dec)x6 [24]
+16. sc, dec, (2sc, dec)x5, sc [18]
+17. (sc, dec)x6 [12]
+
+Fasten off, suff fully, close hole, weave in tails
