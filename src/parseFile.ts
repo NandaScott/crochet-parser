@@ -12,7 +12,7 @@ function readFile(path: string): string[] {
   }
 }
 
-interface TokenizedFile {
+export interface TokenizedFile {
   title: string;
   fastenOff: string;
   steps: Array<{ stepNumber: string, endCount: string, instructions: string }>;
@@ -51,7 +51,7 @@ function tokenizeFile(file: string[]): TokenizedFile {
   }
 }
 
-interface NormalizedTokens extends Pick<TokenizedFile, 'title' | 'fastenOff'> {
+export interface NormalizedTokens extends Pick<TokenizedFile, 'title' | 'fastenOff'> {
   steps: Array<{ stepNumber: number, endCount: number, instructions: string }>
 }
 
