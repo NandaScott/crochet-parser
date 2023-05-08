@@ -24,7 +24,7 @@ interface ExpandedStep extends Pick<NormalizedTokens, 'title' | 'fastenOff'> {
  * @param file A parsed file with normalized tokens
  * @returns A parsed file with the expanded steps added
  */
-function expandMultiplyShorthand(file: NormalizedTokens): ExpandedStep {
+export function expandMultiplyShorthand(file: NormalizedTokens): ExpandedStep {
   const { steps } = file;
   const expandedSteps = steps.map(({ instructions, stepNumber, endCount }) => {
     // Since almost all patterns start with a few single crochets in a magic ring,
@@ -89,5 +89,3 @@ function expandMultiplyShorthand(file: NormalizedTokens): ExpandedStep {
 
 const parsedFile = parseFile('./patterns/basic-ball.txt')
 const expanded = expandMultiplyShorthand(parsedFile)
-
-console.log(expanded.steps)
