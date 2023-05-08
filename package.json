@@ -4,13 +4,19 @@
   "description": "A script to help double crochet patterns",
   "main": "src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "nodemon ./src/index.ts"
   },
   "author": "Nanda Scott",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "@babel/preset-typescript": "^7.21.5",
+    "@types/jest": "^29.5.1",
     "@types/node": "^18.16.0",
+    "babel-jest": "^29.5.0",
+    "jest": "^29.5.0",
     "nodemon": "^2.0.22",
     "ts-node": "^10.9.1"
   }
