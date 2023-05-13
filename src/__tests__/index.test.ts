@@ -1,5 +1,5 @@
-import { expandMultiplyShorthand } from "./index"
-import parseFile from "./parseFile"
+import { expandMultiplyShorthand } from "../index"
+import parseFile from "../parseFile"
 
 const parsedFile = parseFile('./patterns/basic-ball.txt')
 

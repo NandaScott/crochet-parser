@@ -5,6 +5,7 @@
   "main": "src/index.ts",
   "scripts": {
     "test": "jest",
+    "test:watch": "jest --watch --maxWorkers=1",
     "start": "nodemon ./src/index.ts"
   },
   "author": "Nanda Scott",
