@@ -1,7 +1,7 @@
 {
-  "name": "crochet-doubler",
+  "name": "crochet-parser",
   "version": "1.0.0",
-  "description": "A script to help double crochet patterns",
+  "description": "A script to help parse crochet patterns",
   "main": "src/index.ts",
   "scripts": {
     "test": "jest",
